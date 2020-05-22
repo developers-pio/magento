@@ -1,0 +1,24 @@
+{
+    "name": "pio/magento-2-custom-shipping",
+    "description": "PIO Custom Shipping Extension",
+    "require": {
+        "php": "~5.5.0|~5.6.0|~7.0.0|~7.1.0|~7.2.0|~7.3.0"
+    },
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Raghvueer",
+            "email": "raghuveer.singh@programmers.io"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "PIO\\Customshipping\\": ""
+        }
+    }
+}
